@@ -10,7 +10,6 @@ function randomInt(max) {
 
 function draw() {
   var color = randomInt(2);
-  console.log(color);
 
   for(var i = 0; i < 600; i++) {
     var randomSize = randomInt(40);
